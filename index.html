@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gifts and love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gifts and Love</h1>
+        <nav>
+            <button onclick="filterProducts('all')">All Products</button>
+            <button onclick="filterProducts('necklace')">Necklace</button>
+            <button onclick="filterProducts('Keychains')">Key Chains</button>
+            <button onclick="filterProducts('otherproducts')">Other Products</button>
+        </nav>
+    </header>
+
+    <main id="product-list">
+        <!-- Product Item -->
+        <div class="product-item" data-category="necklace">
+            <img src="necklace1.jpg" alt="Rose Necklace">
+            <p>Rose Necklace</p>
+            <p>₹120</p>
+        </div>
+        <div class="product-item" data-category="necklace">
+            <img src="necklace2.jpg" alt="Heart Shape Necklace">
+            <p>Heart Shape Necklace</p>
+            <p>₹120</p>
+        </div>
+        <div class="product-item" data-category="necklace">
+            <img src="necklace3.jpg" alt="Oval Shape Necklace">
+            <p>Oval Shape Necklace</p>
+            <p>₹120</p>
+        </div>
+        <div class="product-item" data-category="necklace">
+            <img src="necklace4.jpg" alt="Customized Necklaces">
+            <p>Customized Necklaces</p>
+            <p>₹160</p>
+        </div>
+        <div class="product-item" data-category="Keychains">
+            <img src="keychain3.jpg" alt="Keychains">
+            <p>All Letter Keychains</p>
+            <p>₹1700</p>
+        </div>
+        <div class="product-item" data-category="Keychains">
+            <img src="keychain1.jpg" alt="D Keychain">
+            <p>D Keychain</p>
+            <p>₹70</p>
+        </div>
+        <div class="product-item" data-category="Keychains">
+            <img src="keychain2.jpg" alt="M Keychain">
+            <p>M Keychain</p>
+            <p>₹70</p>
+        </div>
+        <div class="product-item" data-category="otherproducts">
+            <img src="bookmark.jpg" alt="otherproducts">
+            <p>Customized Bookmarks</p>
+            <p>₹150</p>
+        </div>
+        <div class="product-item" data-category="otherproducts">
+            <img src="c.jpeg" alt="otherproducts">
+            <p>Customization as per required</p>
+            <p>Charges according to customization</p>
+        </div>
+        <!-- Add more products here -->
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 gifts and love. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" target="gif.tsandlove?igsh=MWl3Z2VmeGlrMmFkbQ==">Instagram</a> |
+            </div>
+            <p>DM Our Instagram page for order</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
